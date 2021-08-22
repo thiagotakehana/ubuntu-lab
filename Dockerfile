@@ -7,7 +7,8 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-transport-https \
     lsb-release \
     ca-certificates \
-    git
+    git \
+    python3-pip
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
