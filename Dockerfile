@@ -8,6 +8,7 @@ RUN apt-get update && apt-get upgrade -y && \
     lsb-release \
     ca-certificates \
     git \
+    iputils-ping \
     python3-pip
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
